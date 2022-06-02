@@ -70,6 +70,7 @@
 
 .shop_wrapper_container {
   background: url(../assets/images/444042\ 1.jpg);
+  background-position: center;
 }
 
 .shop_wrapper {
@@ -95,6 +96,7 @@
 
 .shop_wrapper_text {
   padding: 29px 20px;
+  font-weight: 400;
   font-size: 40px;
   line-height: 48px;
   color: #ffffff;
@@ -139,13 +141,13 @@
   font-size: 40px;
   line-height: 48px;
   color: #ffffff;
+  font-weight: 400;
 }
 
 .gadgets_container {
   padding-top: 48px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .item_container {
@@ -157,6 +159,7 @@
 .gadgets_title {
   padding-bottom: 7px;
   font-size: 20px;
+  font-weight: 400;
   line-height: 24px;
   color: #ffffff;
 }
@@ -219,8 +222,160 @@
   padding-top: 12px;
 }
 
-.gadgets_img{
+.gadgets_img {
   max-width: 97%;
+}
+
+.scroll_line {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.yellow_line {
+  height: 5px;
+  width: 190px;
+  background-color: #fdff00;
+  transform: skew(-5deg);
+}
+
+.grey_line {
+  height: 5px;
+  width: 622px;
+  background-color: #282e3c;
+  transform: skew(-5deg);
+}
+
+.scroll_text {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #fdff00;
+  padding-bottom: 122px;
+}
+
+/* gadgets_faq */
+
+.gadgets_faq {
+  background: #262a32;
+}
+
+.faq_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.gadgets_faq_title {
+  padding: 38px 0 28px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.faq_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 92px;
+}
+
+.faq_text h4 {
+  font-weight: 100;
+  font-size: 27px;
+  line-height: 32px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.faq_text p {
+  width: 461px;
+  height: 233px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+/* batmobile_container */
+
+.batmobile_container {
+  background-image: url("../assets/images/wallpaperflare\ 1.svg");
+  background-position: center;
+}
+
+.batmobile_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.batmobile_title {
+  padding-top: 76px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.price_container {
+  margin-top: 338px;
+  width: 505px;
+  height: 188px;
+  background: rgba(38, 42, 50, 0.8);
+  text-align: center;
+}
+
+.price_text_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.price_text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 32px;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
+
+.price_number {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 32px;
+  color: #fdff00;
+  padding-left: 10px;
+}
+
+.batmobile_btn {
+  width: 188px;
+  height: 60px;
+  background: #fdff00;
+  transform: skew(-5deg);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+.batmobile_text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 20px;
+  right: -30px;
 }
 
 @font-face {
