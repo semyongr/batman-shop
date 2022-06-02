@@ -378,6 +378,122 @@
   right: -30px;
 }
 
+/* team_container */
+
+.team_container {
+  background: #262a32;
+}
+
+.team_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.team_title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  padding: 20px 0 28px;
+  color: #ffffff;
+}
+
+.team_text {
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 32px;
+  color: #ffffff;
+  padding-bottom: 28px;
+}
+
+.pics_container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pic_img {
+  width: 281px;
+  /* height: 233px; */
+}
+
+.instagram {
+  background: #fdff00;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.ig_logo {
+  padding-top: 2px;
+  padding-right: 10px;
+}
+
+.ig_name {
+  padding-top: 18px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* footer */
+
+.footer {
+  background-color: #242424;
+}
+
+.footer_container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.footer_items {
+  padding: 60px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.list_item {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fdff00;
+}
+
+.contacts_container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+
+.contacts_container img {
+  padding-right: 25px;
+}
+
+.contacts_container img:last-of-type {
+  padding-right: 0;
+}
+
+.copyrights {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #c4c4c4;
+  padding-bottom: 12px;
+}
+
 @font-face {
   font-family: "BLACKCAPS-Regular";
   src: url("../assets/fonts/BLACKCAPS-Regular.ttf") format("truetype");
